@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logos_item_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/logo_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/correct_image_view"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/checkmark"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
